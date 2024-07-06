@@ -1,10 +1,13 @@
 <resources>
-    <string name="app_name">Ning</string>
+    <string name="app_name">Altia</string>
+    <string name="app_version" translatable="false">2.0.2</string>
 
     <string name="swipe_down_to_scan_the_network">Swipe down to scan the network</string>
     <string name="device_icon">Device Icon</string>
     <string name="interfaces_submenu">Interfaces</string>
     <string name="preferences_submenu">Preferences</string>
+    <string name="button_share_as_file">Share as JSON File</string>
+    <string name="button_share_as_text">Share as JSON Text</string>
     <string name="snackbar_copy_message">Copied "{{text-to-copy}}" to the Clipboard</string>
     <string name="title_network_overview">Network {interface_name}</string>
     <string name="title_device_detail">Device {deviceIp}</string>
@@ -18,6 +21,8 @@
     <string name="this_device">This device</string>
     <string name="error_network_not_found">Network not found</string>
     <string name="hideMacAddressDetails">Hide MAC Address Details</string>
+
+    <!-- Device Types -->
     <string name="device_type_pc">PC</string>
     <string name="device_type_vm">Virtual machine</string>
     <string name="device_type_phone">Phone/Tablet</string>
@@ -29,4 +34,15 @@
     <string name="device_type_cast">Cast</string>
     <string name="device_type_unknown">Unknown</string>
     <string name="device_type_home_appliance">Home Appliance</string>
+
+    <!-- Preferences, App Information -->
+    <string name="app_info_copyright_label">Copyright</string>
+    <string name="app_info_copyright_full">Copyright 2020–2021 Carsten Csiky, 2024 Reinhart Previano Koentjoro</string>
+    <string name="app_info_lgpl">This program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License.  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</string>
+    <string name="app_info_privacy_policy">Privacy Policy</string>
+    <string name="app_info_open_source_licenses">Open Source Licenses</string>
+    <string name="app_info_source_code">Source Code</string>
+    <string name="app_info_version">App Version</string>
+    <string name="preferences_category_about">About</string>
+    <string name="preferences_category_display">Display</string>
 </resources>

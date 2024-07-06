@@ -66,9 +66,9 @@
                 android:max="1000"
                 tools:progress="300" />
 
-            <de.csicar.ning.ui.RecyclerViewCommon
+            <id.reinhart1010.altia.ui.RecyclerViewCommon
                 android:id="@+id/devicesList"
-                android:name="de.csicar.ning.deviceFragment"
+                android:name="id.reinhart1010.altia.deviceFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:layoutManager="LinearLayoutManager"

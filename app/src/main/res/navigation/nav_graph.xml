@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/deviceFragment"
-        android:name="de.csicar.ning.NetworkFragment"
+        android:name="id.reinhart1010.altia.NetworkFragment"
         android:label="@string/title_network_overview"
         tools:layout="@layout/fragment_network_list">
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/deviceInfoFragment"
-        android:name="de.csicar.ning.DeviceInfoFragment"
+        android:name="id.reinhart1010.altia.DeviceInfoFragment"
         android:label="@string/title_device_detail"
         tools:layout="@layout/fragment_deviceinfo_list" >
         <argument
@@ -32,7 +32,7 @@
 
     <fragment
         android:id="@+id/appPreferenceFragment"
-        android:name="de.csicar.ning.ui.AppPreferenceFragment"
+        android:name="id.reinhart1010.altia.ui.AppPreferenceFragment"
         android:label="@string/preferences_submenu"
         >
 

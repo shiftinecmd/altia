@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <SwitchPreference
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory
+        android:title="@string/preferences_category_display" />
+    <androidx.preference.SwitchPreference
         android:defaultValue="false"
         android:key="hideMacDetails"
         android:title="@string/hideMacAddressDetails" />
-</PreferenceScreen>
+    <androidx.preference.PreferenceCategory
+        android:title="@string/preferences_category_about" />
+    <androidx.preference.Preference
+        android:title="@string/app_info_version"
+        android:summary="@string/app_version"
+        android:onClick="visitSourceCode" />
+    <androidx.preference.PreferenceScreen
+        android:title="@string/app_info_source_code"
+        android:summary="https://github.com/shiftinecmd/altia"
+        android:onClick="visitSourceCode" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://github.com/shiftinecmd/altia" />
+    </androidx.preference.PreferenceScreen>
+    <androidx.preference.PreferenceScreen
+        android:title="@string/app_info_privacy_policy"
+        android:summary="https://legal.reinhart1010.id/privacy/general/en"
+        android:onClick="visitSourceCode" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://legal.reinhart1010.id/privacy/general/en" />
+    </androidx.preference.PreferenceScreen>
+</androidx.preference.PreferenceScreen>

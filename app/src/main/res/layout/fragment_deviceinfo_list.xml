@@ -11,8 +11,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <androidx.cardview.widget.CardView
-            style="@style/CardView.Dark"
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Widget.Material3.CardView.Elevated"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp">
@@ -132,7 +132,33 @@
                 </TableLayout>
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-        </androidx.cardview.widget.CardView>
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                android:id="@+id/buttonShareText"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/button_share_as_text"
+                android:drawableStart="@drawable/ic_drive_file_move_outline_48" />
+<!--            <Space-->
+<!--                android:layout_width="8dp"-->
+<!--                android:layout_height="0dp" />-->
+<!--            <com.google.android.material.button.MaterialButton-->
+<!--                style="@style/Widget.Material3.Button.OutlinedButton.Icon"-->
+<!--                android:id="@+id/buttonShareFile"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/button_share_as_file"-->
+<!--                android:drawableStart="@drawable/ic_drive_file_move_outline_48" />-->
+        </LinearLayout>
 
         <TextView
             android:id="@+id/textView7"
@@ -144,9 +170,9 @@
             android:text="@string/title_open_ports"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
-        <de.csicar.ning.ui.RecyclerViewCommon
+        <id.reinhart1010.altia.ui.RecyclerViewCommon
             android:id="@+id/list"
-            android:name="de.csicar.ning.DeviceInfoFragment"
+            android:name="id.reinhart1010.altia.DeviceInfoFragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"

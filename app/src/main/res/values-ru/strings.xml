@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Ning</string>
+    <string name="app_name">Altia</string>
 
     <string name="swipe_down_to_scan_the_network">Проведите вниз для сканирования сети</string>
     <string name="device_icon">Иконка устройства</string>
