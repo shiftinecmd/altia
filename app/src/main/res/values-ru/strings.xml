@@ -10,9 +10,11 @@
     <string name="title_device_detail">Устройство {deviceIp}</string>
     <string name="title_card_device_info">Информация об устройстве</string>
     <string name="field_name_device_name">Имя устройства</string>
+    <string name="field_name_device_type">Тип устройства</string>
     <string name="field_name_device_ip">IP устройства</string>
     <string name="field_name_device_mac">MAC устройства</string>
     <string name="field_name_vendor_name">Вендор</string>
     <string name="title_open_ports">Открытые порты:</string>
     <string name="this_device">Это устройство</string>
+    <string name="error_network_not_found">Сеть не найдена</string>
 </resources>

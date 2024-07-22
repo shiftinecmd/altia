@@ -10,11 +10,12 @@
     <string name="title_device_detail">Aparelho {Ipdoaparelho}</string>
     <string name="title_card_device_info">Info do aparelho</string>
     <string name="field_name_device_name">Nome do aparelho</string>
+    <string name="field_name_device_type">Tipo de aparelho</string>
     <string name="field_name_device_ip">IP do aparelho</string>
     <string name="field_name_device_mac">MAC do aparelho</string>
     <string name="field_name_vendor_name">Nome do fornecedor</string>
     <string name="title_open_ports">Portas abertas:</string>
     <string name="this_device">Seu aparelho</string>
     <string name="error_network_not_found">Nenhuma rede encontrada</string>
-    <string name="hideMacAddressDetails">Ocultar informações do MAC</string>
+    <string name="settings_hide_mac_details">Ocultar informações do MAC</string>
 </resources>

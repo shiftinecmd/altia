@@ -17,7 +17,7 @@
     <string name="title_open_ports">Ataka irekiak:</string>
     <string name="this_device">Gailu hau</string>
     <string name="error_network_not_found">Ez da sarerik aurkitu</string>
-    <string name="hideMacAddressDetails">Ezkutatu MAC helbidearen xehetasunak</string>
+    <string name="settings_hide_mac_details">Ezkutatu MAC helbidearen xehetasunak</string>
     <string name="device_type_pc">Ordenagailua</string>
     <string name="device_type_vm">Makina birtuala</string>
     <string name="device_type_phone">Mugikorra/Tableta</string>

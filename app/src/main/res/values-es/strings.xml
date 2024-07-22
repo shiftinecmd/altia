@@ -16,7 +16,7 @@
     <string name="field_name_device_type">Tipo de dispositivo</string>
     <string name="this_device">Este dispositivo</string>
     <string name="error_network_not_found">Red no encontrada</string>
-    <string name="hideMacAddressDetails">No mostrad detalles de dirección MAC</string>
+    <string name="settings_hide_mac_details">No mostrad detalles de dirección MAC</string>
     <string name="device_type_pc">PC</string>
     <string name="device_type_vm">Máquina virtual</string>
     <string name="device_type_phone">Smartphone/Tablet</string>

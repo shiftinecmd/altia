@@ -20,7 +20,7 @@
     <string name="title_open_ports">Open Ports:</string>
     <string name="this_device">This device</string>
     <string name="error_network_not_found">Network not found</string>
-    <string name="hideMacAddressDetails">Hide MAC Address Details</string>
+    <string name="settings_hide_mac_details">Hide MAC Address Details</string>
 
     <!-- Device Types -->
     <string name="device_type_pc">PC</string>

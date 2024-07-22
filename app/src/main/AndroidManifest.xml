@@ -10,7 +10,8 @@
                      android:maxSdkVersion="32" />
     <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES"
                      android:usesPermissionFlags="neverForLocation"
-                     android:minSdkVersion="31" />
+                     android:minSdkVersion="31"
+                     tools:ignore="UnusedAttribute" />
 
     <application
         android:allowBackup="true"

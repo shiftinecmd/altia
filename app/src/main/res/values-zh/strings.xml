@@ -17,7 +17,7 @@
     <string name="title_open_ports">开放端口:</string>
     <string name="this_device">此设备</string>
     <string name="error_network_not_found">未找到网络</string>
-    <string name="hideMacAddressDetails">隐藏 MAC 地址详情</string>
+    <string name="settings_hide_mac_details">隐藏 MAC 地址详情</string>
     <string name="device_type_pc">个人计算机</string>
     <string name="device_type_vm">虚拟机</string>
     <string name="device_type_phone">手机/平板</string>

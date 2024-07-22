@@ -15,6 +15,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.viewModelScope
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.FragmentNavigator
+import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
@@ -38,7 +39,8 @@ class MainActivity : AppCompatActivity(), NetworkFragment.OnListFragmentInteract
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        val navController = findNavController(R.id.nav_host_fragment)
+        val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+        val navController = navHostFragment.navController
         binding.drawerNavigation.setupWithNavController(navController)
         setSupportActionBar(binding.toolbar)
         appBarConfiguration = AppBarConfiguration.Builder(setOf(R.id.deviceFragment, R.id.appPreferenceFragment))
@@ -52,7 +54,6 @@ class MainActivity : AppCompatActivity(), NetworkFragment.OnListFragmentInteract
             interfaceMenu.add("${nic.interfaceName} - ${nic.address.hostAddress}/${nic.prefix}").also {
                 it.setOnMenuItemClickListener {
                     val bundle = bundleOf("interface_name" to nic.interfaceName)
-                    findNavController(R.id.nav_host_fragment).navigate(R.id.deviceFragment, bundle)
                     binding.mainDrawerLayout.closeDrawers()
                     true
                 }
