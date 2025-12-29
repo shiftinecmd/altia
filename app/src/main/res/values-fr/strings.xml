@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Altia</string>
 
     <string name="swipe_down_to_scan_the_network">Glissez vers le bas pour scanner le réseau</string>
     <string name="device_icon">Icône de l\'appareil</string>
@@ -18,4 +17,7 @@
     <string name="this_device">Cet appareil</string>
     <string name="error_network_not_found">Réseau non trouvé</string>
     <string name="settings_hide_mac_details">Masquer les détails de l\'adresse MAC</string>
+    <string name="device_type_pc">PC</string>
+    <string name="device_type_vm">Machine virtuelle</string>
+    <string name="device_type_phone">Téléphone/Tablette</string>
 </resources>

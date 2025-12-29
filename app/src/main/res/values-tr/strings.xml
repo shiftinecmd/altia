@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Altia</string>
 
     <string name="swipe_down_to_scan_the_network">Ağı taramak için aşağı kaydırın</string>
     <string name="device_icon">Cihaz Simgesi</string>
@@ -17,4 +16,9 @@
     <string name="title_open_ports">Açık Port\'lar:</string>
     <string name="this_device">Bu Cihaz</string>
     <string name="error_network_not_found">Ağ bulunamadı</string>
+    <string name="settings_hide_mac_details">MAC Adresi Ayrıntılarını Gizle</string>
+    <string name="device_type_pc">Bilgisayar (PC)</string>
+    <string name="device_type_vm">Sanal makine (VM)</string>
+    <string name="device_type_router">Ağ yönlendiricisi</string>
+    <string name="device_type_phone">Telefon/Tablet</string>
 </resources>

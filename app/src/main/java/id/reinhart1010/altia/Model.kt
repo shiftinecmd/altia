@@ -240,8 +240,14 @@ data class PortDescription(
             PortDescription(0, 1883, Protocol.TCP, "MQTT", "Message Queuing Telemetry Transport", "mqtt"),
             PortDescription(0, 5000, Protocol.TCP, "UPNP", "Universal Plug and Play", null),
             PortDescription(0, 5353, Protocol.UDP, "mDNS", "Multicast DNS", null),
+            PortDescription(0, 8008, Protocol.TCP, "Google Cast", "Google Cast", null),
+            PortDescription(0, 8008, Protocol.TCP, "Google Cast Alt", "Google Cast alternative", null),
             PortDescription(0, 8000, Protocol.TCP, "HTTP Alt", "HTTP common alternative", "http"),
             PortDescription(0, 8080, Protocol.TCP, "HTTP-Proxy", "HTTP Proxy", "http"),
+            PortDescription(0, 8123, Protocol.TCP, "Home Assistant", "Home Assistant Web GUI", "http"),
+            PortDescription(0, 8384, Protocol.TCP, "Syncthing GUI", "Syncthing Web GUI", "http"),
+            PortDescription(0, 22000, Protocol.TCP, "Syncthing Sync", "Syncthing Synchronization", null),
+            PortDescription(0, 46899, Protocol.TCP, "FCast", "FCast", null),
             PortDescription(0, 62078, Protocol.TCP, "iPhone-Sync", "Lockdown iOS Service", null)
         )
     }

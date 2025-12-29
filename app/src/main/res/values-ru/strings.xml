@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Altia</string>
 
     <string name="swipe_down_to_scan_the_network">Проведите вниз для сканирования сети</string>
     <string name="device_icon">Иконка устройства</string>
@@ -17,4 +16,8 @@
     <string name="title_open_ports">Открытые порты:</string>
     <string name="this_device">Это устройство</string>
     <string name="error_network_not_found">Сеть не найдена</string>
+    <string name="settings_hide_mac_details">Скрыть данные MAC-адреса</string>
+    <string name="device_type_pc">ПК</string>
+    <string name="device_type_vm">Виртуальная машина</string>
+    <string name="device_type_phone">Смартфон/Планшет</string>
 </resources>

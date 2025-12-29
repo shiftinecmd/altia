@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Altia</string>
 
     <string name="swipe_down_to_scan_the_network">Analise a rede local deslizando para baixo</string>
     <string name="device_icon">Ícone do aparelho</string>
@@ -18,4 +17,7 @@
     <string name="this_device">Seu aparelho</string>
     <string name="error_network_not_found">Nenhuma rede encontrada</string>
     <string name="settings_hide_mac_details">Ocultar informações do MAC</string>
+    <string name="device_type_pc">PC</string>
+    <string name="device_type_vm">Máquina virtual</string>
+    <string name="device_type_phone">Telefone/Tablet</string>
 </resources>

@@ -23,10 +23,10 @@
         android:label="@string/title_device_detail"
         tools:layout="@layout/fragment_deviceinfo_list" >
         <argument
-            android:name="deviceip"
+            android:name="deviceIp"
             app:argType="string" />
         <argument
-            android:name="deviceid"
+            android:name="deviceId"
             app:argType="long" />
     </fragment>
 

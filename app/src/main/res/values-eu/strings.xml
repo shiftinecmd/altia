@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Altia</string>
 
     <string name="swipe_down_to_scan_the_network">Arrastatu behera sarea aztertzeko</string>
     <string name="device_icon">Gailuaren ikurra</string>

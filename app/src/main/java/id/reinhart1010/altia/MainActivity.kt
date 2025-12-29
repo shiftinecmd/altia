@@ -5,6 +5,7 @@ import android.util.Log
 import android.view.SubMenu
 import android.view.View
 import android.view.WindowManager
+import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
@@ -37,8 +38,10 @@ class MainActivity : AppCompatActivity(), NetworkFragment.OnListFragmentInteract
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         val navController = navHostFragment.navController
         binding.drawerNavigation.setupWithNavController(navController)
@@ -73,7 +76,7 @@ class MainActivity : AppCompatActivity(), NetworkFragment.OnListFragmentInteract
 
 
     override fun onListFragmentInteraction(item: DeviceWithName?, view: View) {
-        val bundle = bundleOf("deviceId" to item?.deviceId, "deviceIp" to item?.ip)
+        val bundle = bundleOf("deviceId" to item?.deviceId, "deviceIp" to item?.ip.toString())
         findNavController(R.id.nav_host_fragment).navigate(R.id.deviceInfoFragment, bundle)
     }
 }

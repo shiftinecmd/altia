@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Altia</string>
 
     <string name="swipe_down_to_scan_the_network">Herunterwischen, um Netzwerk zu scannen</string>
     <string name="device_icon">Geräte-Icon</string>
